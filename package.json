@@ -1,0 +1,17 @@
+{
+  "name": "o39_homepage_parcel",
+  "version": "1.0.2",
+  "description": "Homepage for Orkana³⁹",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olaf Schindler",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.22.4"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}

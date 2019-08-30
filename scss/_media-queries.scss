@@ -1,0 +1,29 @@
+/*** MEDIA QUERIES ***/
+
+@media all and (max-width: 1023px) and (min-width: 768px) {}
+
+@media all and (max-width: 767px) {
+	header {
+		ul.social {
+			font-size: 16px;
+			li {
+				float: none;
+				margin-right: 1rem;
+			}
+		}
+	}
+
+	footer {
+		.inv {
+			width: 80%;
+			font-size: 24px;
+		}
+
+		.social-logos {
+			margin-top: 2rem;
+			ul li {
+				margin-right: 2rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+/* Fonts */
+@font-face {
+font-family: 'type';
+font-weight: 500;
+src: url('../type/type_medium.woff') format('woff'),
+  url('../type/type_medium.svg#svgFontName') format('svg'),
+  url('../type/type_medium.eot?#iefix') format('embedded-opentype'),
+  url('../type/type_medium.ttf')  format('truetype');
+}
+@font-face {
+font-family: 'type';
+font-weight: bold;
+src: url('../type/type_bold.woff') format('woff'),
+  url('../type/type_bold.eot?#iefix') format('embedded-opentype'),
+  url('../type/type_bold.ttf')  format('truetype'),
+  url('../type/type_bold.svg#svgFontName') format('svg');
+}
