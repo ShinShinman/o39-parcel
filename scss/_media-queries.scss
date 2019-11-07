@@ -4,6 +4,9 @@
 
 @media all and (max-width: 767px) {
 	header {
+		p.hello {
+			font-size: 12px;
+		}
 		ul.social {
 			font-size: 16px;
 			li {

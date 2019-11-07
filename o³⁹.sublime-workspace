@@ -1,0 +1,601 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"config"
+			],
+			[
+				"w",
+				"weatherKey"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ima",
+				"imagemin"
+			],
+			[
+				"image",
+				"imagemin-jpegtran"
+			],
+			[
+				"com",
+				"completed"
+			],
+			[
+				"re",
+				"resize"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"cons",
+				"const"
+			],
+			[
+				"file",
+				"file"
+			],
+			[
+				"files",
+				"filesArray"
+			],
+			[
+				"u",
+				"unset\tborder-radius"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"margin-",
+				"margin-right\tproperty"
+			],
+			[
+				"fl",
+				"flex\tdisplay"
+			],
+			[
+				"tem",
+				"tempContainer"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"su",
+				"suggestionsHTML"
+			],
+			[
+				"un",
+				"uniqueSuggestions"
+			],
+			[
+				"meta",
+				"metadata"
+			],
+			[
+				"po",
+				"pointer\tcursor"
+			],
+			[
+				"cour",
+				"cursor\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"bord",
+				"border\tproperty"
+			],
+			[
+				"lists",
+				"list-style\tproperty"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"page",
+				"page1"
+			],
+			[
+				"items",
+				"itemsOnPage"
+			],
+			[
+				"it",
+				"itemsOnPage"
+			],
+			[
+				"res",
+				"resArray"
+			],
+			[
+				"fin",
+				"findObjsByRef"
+			],
+			[
+				"direc",
+				"directusRes"
+			],
+			[
+				"lunr",
+				"lunrSearchRes"
+			],
+			[
+				"sea",
+				"searchResArray"
+			],
+			[
+				"lun",
+				"lunrSearchRes"
+			],
+			[
+				"url",
+				"urlObject"
+			],
+			[
+				"directus",
+				"directusRes"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"sear",
+				"searchRes"
+			],
+			[
+				"se",
+				"searchRes"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"lu",
+				"lunrRes"
+			],
+			[
+				"grid-t",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"coll",
+				"collection-nav"
+			],
+			[
+				"border-c",
+				"border-color\tproperty"
+			],
+			[
+				"bor",
+				"border-bottom\tproperty"
+			],
+			[
+				"collec",
+				"collectionItem"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2527,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"hmtl",
+				"Set Syntax: HTML"
+			],
+			[
+				"plain t",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL"
+	],
+	"file_history":
+	[
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/config.js",
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/index.js",
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/package.json",
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/yszt.js",
+		"/C/Users/Shin/Desktop/MA Kolekcja/baza danych/cyrylica.csv",
+		"/D/dump.sql",
+		"/D/Users/Shin/Downloads/m3452_maWebsite.sql",
+		"/C/Users/Shin/Desktop/MA Kolekcja/baza danych/TTT TMP.csv",
+		"/C/Users/Shin/Desktop/Nowy folder/params.js",
+		"/C/Users/Shin/Desktop/compress images/1620.js",
+		"/C/Users/Shin/Desktop/compress images/imagemin.js",
+		"/C/Users/Shin/Desktop/compress images/height.js",
+		"/C/Users/Shin/Desktop/compres images TEST/imagemin.js",
+		"/C/Users/Shin/Desktop/compress images/package.json",
+		"/C/Users/Shin/Desktop/compres images TEST/1620.js",
+		"/C/Users/Shin/Desktop/compres images/imagemin.js",
+		"/C/Users/Shin/Desktop/compres images/1620.js",
+		"/C/Users/Shin/Desktop/compres images/package.json",
+		"/C/Users/Shin/Desktop/compres images/compress.js",
+		"/C/Users/Shin/Desktop/compres images/compressimages.js",
+		"/C/Users/Shin/Desktop/compres images/filenames.js",
+		"/X/image compression/package.json",
+		"/X/image compression/gulpfile.js",
+		"/C/Users/Shin/Desktop/MA Kolekcja/baza danych/Frydecki CYRYICA.xml",
+		"/C/Users/Shin/Desktop/MA Kolekcja/baza danych/Frydecki.csv",
+		"/D/Users/Shin/Downloads/kolekcja-2_2019-10-24.csv",
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/index.html",
+		"/C/Users/Shin/Desktop/MA Kolekcja/obiektGramatyka.js",
+		"/C/Users/Shin/Desktop/Wiązania.txt",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/utilities/master.xsl",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/scss/pages/_collection.scss",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/pages/collection.xsl",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/scss/pages/_pages.scss",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/scss/_pagesBAK.scss",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/scss/main.scss",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/.gitignore",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/bower.json",
+		"/D/xampp5.6.40/htdocs/ma.test/workspace/pages/collection.xsl",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/.htaccess",
+		"/D/xampp5.6.40/htdocs/ma.test/manifest/config.php",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/manifest/config.php",
+		"/D/xampp5.6.40/htdocs/ma.test/.htaccess",
+		"/C/Users/Shin/Desktop/MA Kolekcja/import do Symphony/import_A.csv",
+		"/C/Users/Shin/Desktop/MA Kolekcja/import do Symphony/import_B.csv",
+		"/C/Users/Shin/Desktop/MA Kolekcja/import do Symphony/import_A_.csv",
+		"/C/Users/Shin/Desktop/MA Kolekcja/eksport z MONY test/baza testowa.csv",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/pages/collection_search.xsl",
+		"/C/Users/Shin/Desktop/lunr × node/lunrServer.js",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/scss/pages/_collection-search.scss",
+		"/C/Users/Shin/Desktop/MA Kolekcja/eksport z MONY test/baza testowa test A.csv",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/.gitmodules",
+		"/C/Users/Shin/Desktop/teraz.md",
+		"/D/Users/Shin/Downloads/timezones/europe",
+		"/D/xamp/htdocs/ma.wroc.pl/workspace/node_modules/gulp/bin/gulp.js",
+		"/D/xamp/htdocs/ma.wroc.pl/workspace/node_modules/gulp/lib/taskTree.js",
+		"/D/xamp/htdocs/ma.wroc.pl/workspace/node_modules/gulp/lib/completion.js",
+		"/C/Users/Shin/Desktop/lunr × node/search.js",
+		"/C/Users/Shin/AppData/Roaming/Sublime Text 3/Packages/User/console.log.sublime-snippet",
+		"/D/Users/Shin/Downloads/pobrane",
+		"/C/Users/Shin/Desktop/NodeJS/fileserver.js",
+		"/C/Users/Shin/Desktop/lunr × node/package.json",
+		"/C/Users/Shin/Desktop/NodeJS/app.js",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/pages/construction-archive_search.xsl",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/coffee/ma.coffee",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/scss/pages/_construction-archive-search.scss",
+		"/D/xamp/apache/conf/httpd.conf",
+		"/D/xamp/mysql/bin/my.ini",
+		"/D/xamp/apache/conf/extra/httpd-ssl.conf",
+		"/D/xamp/htdocs/directus/config/api.php",
+		"/D/xampp5.6.40/apache/conf/httpd.conf",
+		"/C/Users/Shin/Desktop/Vue Test/index.html",
+		"/C/Users/Shin/Desktop/Vue Test/index.js",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/scss/_pages.scss",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/scss/pages/_construction-archive.scss",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/pages/collection_collection.xsl",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/pages/about-museum.xsl",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/coffee/components4gulp.js",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/gulpfile.js",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/coffee/components.js",
+		"/D/xampp7.2.22/htdocs/ma.wroc.pl/manifest/config.php",
+		"/D/xampp5.6.40/php/php.ini",
+		"/D/xampp7.2.22/php/php.ini",
+		"/C/Users/Shin/Desktop/malgorzataczerwinska.pl/html 2019/index.html",
+		"/C/Users/Shin/Desktop/malgorzataczerwinska.pl/html 2019/css/style.css",
+		"/C/Users/Shin/Desktop/malgorzataczerwinska.pl/strona gabinetu-1 _s.odt",
+		"/X/Vue Tutorial/Intro to Vue/index.html",
+		"/C/Users/Shin/Desktop/Vue Test/index2.html",
+		"/C/Users/Shin/Desktop/directus/db API1.txt",
+		"/C/Users/Shin/Desktop/MA Zbiory/eksport z MONY test/baza testowa test A.csv",
+		"/C/Users/Shin/Desktop/NodeJS/modules/myDateAndTime.js",
+		"/C/Users/Shin/Desktop/MA Zbiory/eksport z MONY test/baza testowa.csv",
+		"/C/Users/Shin/Desktop/malgorzataczerwinska.pl/html 2019/index.html.BAK.html",
+		"/C/Users/Shin/Desktop/malgorzataczerwinska.pl/html 2019/index_JS na zewnatrz.html",
+		"/C/Users/Shin/Desktop/malgorzataczerwinska.pl/html 2019/js/functions.js",
+		"/C/Users/Shin/Desktop/malgorzataczerwinska.pl/html 2019/contact.php",
+		"/D/xamp/htdocs/test/api/index.html",
+		"/D/xamp/htdocs/test/.htaccess",
+		"/D/xamp/htdocs/test/index.html",
+		"/C/Users/Shin/Desktop/directus/.htaccess",
+		"/C/Users/Shin/Desktop/directus/directus/public/admin/.htaccess",
+		"/C/Users/Shin/Desktop/directus/directus/public/.htaccess",
+		"/C/Users/Shin/Desktop/MA Zbiory/projekt/MA Zbiory struktura serwisu.md",
+		"/C/Users/Shin/Desktop/directus/API1.txt",
+		"/C/Users/Shin/Desktop/MA Zbiory/eksport z MONY excel/Frydecki OLE.csv",
+		"/X/Vue Tutorial/Intro to Vue/index.js",
+		"/C/Users/Shin/Desktop/Directus Extension Builder/my-first-interface/src/display.vue",
+		"/C/Users/Shin/Desktop/Directus Extension Builder/my-first-interface/src/input.vue",
+		"/C/Users/Shin/Desktop/Directus Extension Builder/my-first-interface/readme.md",
+		"/C/Users/Shin/Desktop/Directus Extension Builder/my-first-interface/package.json",
+		"/C/Users/Shin/Desktop/Directus Extension Builder/my-first-interface/src/meta.json",
+		"/C/Users/Shin/Desktop/extension/package.json",
+		"/D/xamp/htdocs/directus/public/extensions/custom/endpoints/_example.php",
+		"/C/Users/Shin/Desktop/directus/index.html",
+		"/D/xamp/htdocs/directus/public/index.php.BAK",
+		"/D/xamp/htdocs/directus/public/index.php",
+		"/D/xamp/htdocs/directus/public/index.html",
+		"/D/xamp/htdocs/directus/public/admin/config.js",
+		"/C/Users/Shin/Desktop/directusAPI/api/config/api.php",
+		"/D/Users/Shin/Downloads/home.txt",
+		"/D/xamp/htdocs/directus/config/api.rm.php",
+		"/D/xamp/htdocs/directus/config/api.im1.php",
+		"/C/Users/Shin/Desktop/MA Zbiory/eksport z MONY excel/TABELA_20150624_125621_s_LINKI_test.csv",
+		"/C/Users/Shin/Desktop/MA Zbiory/eksport z MONY excel/TABELA_20150624_125621_s_i.csv",
+		"/C/Users/Shin/Desktop/MA Zbiory/eksport z MONY excel/architekci.csv",
+		"/C/Users/Shin/Desktop/MA Zbiory/eksport z MONY excel/TABELA_20150624_125621_s_iTEST.csv",
+		"/D/xamp/php/php.ini",
+		"/D/xampp/phpMyAdmin/config.inc.php",
+		"/D/xampp/htdocs/directus/public/admin/config.js"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"config",
+			"var",
+			"\\s(\\(.+\\))",
+			"file",
+			"\\s(\\(.+\\))",
+			"(\\(alternatywa II\\))",
+			"\\(",
+			"slide",
+			"swiper",
+			"charset",
+			"data",
+			"meta-t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"@$1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2498,
+								2498
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.8
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "o³⁹.sublime-project",
+	"replace":
+	{
+		"height": 74.4
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 307.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
