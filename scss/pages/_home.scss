@@ -7,6 +7,7 @@ body {
 	color: #444444;
 }
 p {
+	font-size: 16px;
 	margin-bottom: $global-margin-bottom;
 }
 img {
@@ -19,21 +20,30 @@ a {
 	&:hover {
 		border-bottom: 2px solid;
 	}
+	&.active {
+		border-bottom: 2px solid;
+	}
 }
 
 header {
+	margin-bottom: 2rem;
 	h1 {
 		font-weight: bold;
-		width: 80%;
+		width: 60%;
 		margin-bottom: 1rem;
+
+		a:hover {
+			border: none;
+		}
 	}
 
 	p.hello {
-		font-size: 14px;
+		// font-size: 14px;
 		margin-bottom: 12px;
+		// font-weight: bold;
 	}
 	
-	ul.social {
+	ul.menu {
 		@include inline-list;
 		font-size: 18px;
 		font-weight: bold;
@@ -45,6 +55,19 @@ header {
 	}
 }
 
+#client-list {
+	// @include inline-list;
+	width: 60%;
+	// font-size: 14px;
+	line-height: 1.5rem;
+
+	li:after {
+		content: ', ';
+	}
+	li:last-of-type:after {
+		content: '';
+	}
+}
 
 footer {
 	position: absolute;
@@ -97,4 +120,49 @@ footer {
 	}
 }
 
+//test
+.client-list {
+	display: none;
+	// color: #7fb7f5;
+	// opacity: 0;
+}
 
+.show {
+	display: block;
+	animation: fadeIn 1s ease-out;
+}
+
+.hide {
+	display: none;
+	animation: fadeOut 1s ease-out;
+}
+
+@keyframes fadeIn {
+	0% {
+		display: none;
+		opacity: 0;
+	}
+	1% {
+		display: block;
+		opacity: 0;
+	}
+	100% {
+		display: block;
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	0% {
+		display: block;
+		opacity: 1;
+	}
+	99% {
+		display: block;
+		opacity: 0;
+	}
+	100% {
+		display: none;
+		opacity: 0;
+	}
+}

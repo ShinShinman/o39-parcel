@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"client",
+				"clientListBtn"
+			],
+			[
+				"clien",
+				"clientListState"
+			],
+			[
+				"cl",
+				"classList"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"bl",
+				"block\tdisplay"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
 				"con",
 				"config"
 			],
@@ -224,10 +248,28 @@
 	"buffers":
 	[
 		{
+			"file": "scss/pages/_home.scss",
+			"settings":
+			{
+				"buffer_size": 2130,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 1786,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2527,
+				"buffer_size": 3122,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -302,13 +344,25 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL"
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL",
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/scss",
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/scss/pages"
 	],
 	"file_history":
 	[
-		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/config.js",
+		"/C/Users/Shin/Desktop/wydatki.txt",
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/lista-klientow.txt",
 		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/index.js",
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/scss/pages/_home.scss",
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/index.html",
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/scss/_mixins.scss",
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/scss/_typography.scss",
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/scss/typography/_lists.scss",
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/.gitignore",
 		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/package.json",
+		"/C/Users/Shin/AppData/Local/Temp/ai15731550376.tmp/ai15731550376.txt",
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/config.js",
+		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/README.md",
 		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/yszt.js",
 		"/C/Users/Shin/Desktop/MA Kolekcja/baza danych/cyrylica.csv",
 		"/D/dump.sql",
@@ -332,7 +386,6 @@
 		"/C/Users/Shin/Desktop/MA Kolekcja/baza danych/Frydecki CYRYICA.xml",
 		"/C/Users/Shin/Desktop/MA Kolekcja/baza danych/Frydecki.csv",
 		"/D/Users/Shin/Downloads/kolekcja-2_2019-10-24.csv",
-		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/index.html",
 		"/C/Users/Shin/Desktop/MA Kolekcja/obiektGramatyka.js",
 		"/C/Users/Shin/Desktop/Wiązania.txt",
 		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/utilities/master.xsl",
@@ -424,20 +477,11 @@
 		"/D/xamp/htdocs/directus/public/index.html",
 		"/D/xamp/htdocs/directus/public/admin/config.js",
 		"/C/Users/Shin/Desktop/directusAPI/api/config/api.php",
-		"/D/Users/Shin/Downloads/home.txt",
-		"/D/xamp/htdocs/directus/config/api.rm.php",
-		"/D/xamp/htdocs/directus/config/api.im1.php",
-		"/C/Users/Shin/Desktop/MA Zbiory/eksport z MONY excel/TABELA_20150624_125621_s_LINKI_test.csv",
-		"/C/Users/Shin/Desktop/MA Zbiory/eksport z MONY excel/TABELA_20150624_125621_s_i.csv",
-		"/C/Users/Shin/Desktop/MA Zbiory/eksport z MONY excel/architekci.csv",
-		"/C/Users/Shin/Desktop/MA Zbiory/eksport z MONY excel/TABELA_20150624_125621_s_iTEST.csv",
-		"/D/xamp/php/php.ini",
-		"/D/xampp/phpMyAdmin/config.inc.php",
-		"/D/xampp/htdocs/directus/public/admin/config.js"
+		"/D/Users/Shin/Downloads/home.txt"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 40.8
 	},
 	"find_in_files":
 	{
@@ -451,6 +495,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			", 'active'",
+			"we ",
+			"document.getElementById('client-list')",
+			"<li>",
+			"</li>",
+			"inline-list",
 			"config",
 			"var",
 			"\\s(\\(.+\\))",
@@ -481,24 +531,83 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "scss/pages/_home.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2527,
+						"buffer_size": 2130,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2498,
-								2498
+								321,
+								321
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Dark-Material.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1680,
+								1680
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								946,
+								946
 							]
 						],
 						"settings":
@@ -507,10 +616,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 912.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
