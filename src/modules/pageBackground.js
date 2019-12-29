@@ -25,6 +25,7 @@ function setBackground () {
 	const backgroundContainer = document.getElementById('page-background');
 	backgroundContainer.style.backgroundImage = `url(${ background.file })`;
 	backgroundContainer.style.color = background.color;
+	document.getElementsByClassName('st0')[0].style.fill = background.color;
 }
 
 export { setBackground };

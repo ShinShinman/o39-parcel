@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"c",
+				"color"
+			],
+			[
+				"get",
+				"get\tGet Elements"
+			],
+			[
+				"backgrou",
+				"background-repeat\tproperty"
+			],
+			[
+				"bac",
+				"background-size\tproperty"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"ran",
+				"randomBackground"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
 				"client",
 				"clientListBtn"
 			],
@@ -34,10 +66,6 @@
 			[
 				"w",
 				"weatherKey"
-			],
-			[
-				"get",
-				"getElementById"
 			],
 			[
 				"ima",
@@ -76,10 +104,6 @@
 				"unset\tborder-radius"
 			],
 			[
-				"marg",
-				"margin-bottom\tproperty"
-			],
-			[
 				"margin-",
 				"margin-right\tproperty"
 			],
@@ -114,10 +138,6 @@
 			[
 				"cour",
 				"cursor\tproperty"
-			],
-			[
-				"bac",
-				"background-color\tproperty"
 			],
 			[
 				"bord",
@@ -247,33 +267,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "scss/pages/_home.scss",
-			"settings":
-			{
-				"buffer_size": 2130,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.js",
-			"settings":
-			{
-				"buffer_size": 1786,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 3122,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -286,6 +279,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
 			[
 				"js",
 				"Set Syntax: JavaScript"
@@ -344,13 +345,25 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL",
-		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/scss",
-		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/scss/pages"
+		"/C/Users/Shin/Desktop/O39 Homepage"
 	],
 	"file_history":
 	[
+		"/C/Users/Shin/Desktop/O39 Homepage/src/scss/pages/_home.scss",
+		"/C/Users/Shin/Desktop/O39 Homepage/src/index.js",
+		"/C/Users/Shin/Desktop/O39 Homepage/src/index.html",
+		"/C/Users/Shin/Desktop/O39 Homepage/src/modules/pageBackground.js",
+		"/C/Users/Shin/Desktop/O39 Homepage/src/modules/config.js",
+		"/C/Users/Shin/Desktop/O39 Homepage/package.json",
+		"/C/Users/Shin/Desktop/O39 Homepage/index.html",
+		"/C/Users/Shin/Desktop/parcel-test/src/index.js",
+		"/C/Users/Shin/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Shin/Desktop/O39 Homepage/index.js",
+		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/gulpfile.js",
+		"/C/Users/Shin/Desktop/O39 Homepage/images/logo.svg",
+		"/C/Users/Shin/Desktop/O39 Homepage/scss/pages/_home.scss",
 		"/C/Users/Shin/Desktop/wydatki.txt",
+		"/C/Users/Shin/Desktop/O39 Homepage/.gitignore",
 		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/lista-klientow.txt",
 		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/index.js",
 		"/C/Users/Shin/Desktop/O39 Homepage - PARCEL/scss/pages/_home.scss",
@@ -436,7 +449,6 @@
 		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/pages/collection_collection.xsl",
 		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/pages/about-museum.xsl",
 		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/coffee/components4gulp.js",
-		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/gulpfile.js",
 		"/D/xampp5.6.40/htdocs/ma.wroc.pl/workspace/coffee/components.js",
 		"/D/xampp7.2.22/htdocs/ma.wroc.pl/manifest/config.php",
 		"/D/xampp5.6.40/php/php.ini",
@@ -464,20 +476,7 @@
 		"/C/Users/Shin/Desktop/directus/API1.txt",
 		"/C/Users/Shin/Desktop/MA Zbiory/eksport z MONY excel/Frydecki OLE.csv",
 		"/X/Vue Tutorial/Intro to Vue/index.js",
-		"/C/Users/Shin/Desktop/Directus Extension Builder/my-first-interface/src/display.vue",
-		"/C/Users/Shin/Desktop/Directus Extension Builder/my-first-interface/src/input.vue",
-		"/C/Users/Shin/Desktop/Directus Extension Builder/my-first-interface/readme.md",
-		"/C/Users/Shin/Desktop/Directus Extension Builder/my-first-interface/package.json",
-		"/C/Users/Shin/Desktop/Directus Extension Builder/my-first-interface/src/meta.json",
-		"/C/Users/Shin/Desktop/extension/package.json",
-		"/D/xamp/htdocs/directus/public/extensions/custom/endpoints/_example.php",
-		"/C/Users/Shin/Desktop/directus/index.html",
-		"/D/xamp/htdocs/directus/public/index.php.BAK",
-		"/D/xamp/htdocs/directus/public/index.php",
-		"/D/xamp/htdocs/directus/public/index.html",
-		"/D/xamp/htdocs/directus/public/admin/config.js",
-		"/C/Users/Shin/Desktop/directusAPI/api/config/api.php",
-		"/D/Users/Shin/Downloads/home.txt"
+		"/C/Users/Shin/Desktop/Directus Extension Builder/my-first-interface/src/display.vue"
 	],
 	"find":
 	{
@@ -495,6 +494,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"none",
+			"imgKey",
+			"img",
+			"\"",
 			", 'active'",
 			"we ",
 			"document.getElementById('client-list')",
@@ -531,97 +534,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "scss/pages/_home.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2130,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								321,
-								321
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Dark-Material.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1786,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1680,
-								1680
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 399.2,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3122,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								946,
-								946
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 912.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
