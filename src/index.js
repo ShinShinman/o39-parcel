@@ -1,9 +1,15 @@
-const axios = require('axios');
-const conf = require('./modules/config.js');
+import { config } from './modules/config';
+import axios from 'axios';
+import { setBackground } from './modules/pageBackground';
+
+import './scss/stylez.scss';
 
 const greetingContainer = document.getElementById('greeting');
 const timeContainer = document.getElementById('time');
 const tempContainer = document.getElementById('temp');
+
+setBackground();
+
 
 (function updateClock() {
 	let localeTime = (new Date()).toLocaleString(navigator.language, {hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Warsaw'});
