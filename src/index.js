@@ -1,5 +1,5 @@
 const axios = require('axios');
-const conf = require('./config.js');
+const conf = require('./modules/config.js');
 
 const greetingContainer = document.getElementById('greeting');
 const timeContainer = document.getElementById('time');

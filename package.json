@@ -1,10 +1,12 @@
 {
   "name": "o39_homepage_parcel",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Homepage for Orkana³⁹",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
   },
   "author": "Olaf Schindler",
   "license": "ISC",
