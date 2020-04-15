@@ -1,0 +1,67 @@
+footer {
+	position: absolute;
+	bottom: 0;
+	// margin-bottom: 1.5rem;
+
+	p {
+		font-size: 14px;
+	}
+
+	& > * {
+		float: left;
+	}
+		
+	.inv {
+		letter-spacing: -0.10;
+		width: 40%;
+		margin-right: 10%;
+
+		p {
+			font-size: 21px;
+		}
+	}
+	.mid {
+		width: 20%;
+		margin-right: 10px;
+	}
+	.social-logos {
+		width: 20%;
+		 ul {
+			@include inline-list;
+
+			li {
+				margin-right: 3rem;
+			}
+			
+			a {
+				// @include hide-text;
+				display: inline-block;
+				// opacity: .5;
+				width: 16px;
+				height: 16px;
+				// background-size: 18px;
+				// background-repeat: no-repeat;
+				// background-image: url(../images/social.svg);
+
+
+
+				&:hover {
+					text-decoration: none;
+					border: none;
+					// border-bottom: 2px solid;
+
+					path {
+						fill: white !important;
+					}
+				}
+
+				&.be {
+					// background-position: 0 0;
+				}
+				&.insta {
+					// background-position: 0 -18px;	
+				}
+			}
+		 }
+	}
+}

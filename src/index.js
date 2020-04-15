@@ -15,7 +15,7 @@ setBackground();
 	let localeTime = (new Date()).toLocaleString(navigator.language, {hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Warsaw'});
 	let greeting;
 	timeContainer.innerHTML = localeTime;
-	parseInt(localeTime) > 7 && parseInt(localeTime) < 17 ? greeting = 'Dzień dobry' : greeting = 'Dobry wieczór';
+	parseInt(localeTime) > 7 && parseInt(localeTime) < 19 ? greeting = 'Dzień dobry' : greeting = 'Dobry wieczór';
 	greetingContainer.innerHTML = greeting
 	setTimeout(updateClock, 5000);
 })();
