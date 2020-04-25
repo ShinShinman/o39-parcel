@@ -1,10 +1,7 @@
 import backgroundImages from '../images/backgrounds/*.jpg';
 
-function log() {
-	console.log(backgroundImages);
-}
-
-log();
+const print = console.log.bind(console, '☛');
+// print(backgroundImages);
 
 const backgrounds = {
 	bcgr0: {
@@ -21,7 +18,7 @@ const backgrounds = {
 	},
 	bcgr3: {
 		file: backgroundImages.mawww2,
-		color: 'royalblue'
+		color: '#84a3ff'
 	},
 	bcgr4: {
 		file: backgroundImages.nomus,
@@ -29,11 +26,15 @@ const backgrounds = {
 	},
 	bcgr5: {
 		file: backgroundImages.dzikie,
-		color: '#00bfbf'
+		color: 'rgb(249, 179, 236)' // '#08f95d' // '#00bfbf'
 	},
 	bcgr6: {
 		file: backgroundImages.werk,
 		color: 'white'
+	},
+	bcgr7: {
+		file: '',
+		color: 'black'
 	}
 };
 
