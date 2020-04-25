@@ -3,17 +3,28 @@
 @media all and (max-width: 1023px) and (min-width: 768px) {}
 
 @media all and (max-width: 767px) {
+	a:hover {
+		border-bottom: none;
+	}
 	header {
 		p.hello {
 			font-size: 12px;
 		}
-		ul.social {
-			font-size: 16px;
+		h1 {
+			width: 80%;
+		}
+		ul.menu {
 			li {
 				float: none;
-				margin-right: 1rem;
 			}
 		}
+		// ul.social {
+		// 	font-size: 16px;
+		// 	li {
+		// 		float: none;
+		// 		margin-right: 1rem;
+		// 	}
+		// }
 	}
 
 	footer {
@@ -22,11 +33,31 @@
 			font-size: 24px;
 		}
 
+		.mid {
+			width: 60%;
+			p {
+				margin-bottom: 0;
+				&:last-of-type {
+					margin-bottom: 10px;
+				}
+			}
+		}
+
 		.social-logos {
-			margin-top: 2rem;
+			// margin-top: 2rem;
+			width: 30%;
 			ul li {
 				margin-right: 2rem;
 			}
 		}
+	}
+}
+
+@media all and (max-width: 767px) {
+	header {
+		h1 {
+			width: 80%;
+		}
+		
 	}
 }

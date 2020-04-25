@@ -1,38 +1,41 @@
-// import backgroundImages from '../images/backgrounds/*.jpg';
+import backgroundImages from '../images/backgrounds/*.jpg';
 
-function log() {
-	console.log(backgroundImages);
-}
+const print = console.log.bind(console, '☛');
+//  print(backgroundImages);
 
 const backgrounds = {
 	bcgr0: {
 		file: '',
 		color: 'black'
-	} //,
-	// bcgr1: {
-	// 	file: backgroundImages.bcgr1,
-	// 	color: 'grey'
-	// },
-	// bcgr2: {
-	// 	file: backgroundImages.bcgr2,
-	// 	color: 'cornflowerblue'
-	// },
-	// bcgr3: {
-	// 	file: backgroundImages.mawww2,
-	// 	color: 'royalblue'
-	// },
-	// bcgr4: {
-	// 	file: backgroundImages.nomus,
-	// 	color: 'blueviolet'
-	// },
-	// bcgr5: {
-	// 	file: backgroundImages.dzikie,
-	// 	color: '#00bfbf'
-	// },
-	// bcgr6: {
-	// 	file: backgroundImages.werk,
-	// 	color: 'white'
-	// }
+	},
+	bcgr1: {
+		file: backgroundImages.bcgr1,
+		color: 'grey'
+	},
+	bcgr2: {
+		file: backgroundImages.bcgr2,
+		color: 'cornflowerblue'
+	},
+	bcgr3: {
+		file: backgroundImages.mawww2,
+		color: '#84a3ff'
+	},
+	bcgr4: {
+		file: backgroundImages.nomus,
+		color: 'blueviolet'
+	},
+	bcgr5: {
+		file: backgroundImages.dzikie,
+		color: 'rgb(249, 179, 236)' // '#08f95d' // '#00bfbf'
+	},
+	bcgr6: {
+		file: backgroundImages.werk,
+		color: 'white'
+	},
+	bcgr7: {
+		file: '',
+		color: 'black'
+	}
 };
 
 function randomBackground() {
