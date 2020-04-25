@@ -1,6 +1,8 @@
 .cache/*
 dist/*
 node_modules/*
+src/images/backgrounds/*
+!src/images/backgrounds/.gitkeep
 **/*.sublime-project
 **/*.sublime-workspace
 *.sublime-project
