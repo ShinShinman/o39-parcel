@@ -7,4 +7,3 @@ src/images/backgrounds/*
 **/*.sublime-workspace
 *.sublime-project
 *.sublime-workspace
-package-lock.json

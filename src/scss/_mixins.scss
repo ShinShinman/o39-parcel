@@ -9,10 +9,11 @@
 }
 
 @mixin inline-list {
+	display: flex;
 	list-style: none;
 	overflow: hidden;
 	li {
-		float: left;
+	// 	float: left;
 		margin-right: 1rem;
 	}
 }
