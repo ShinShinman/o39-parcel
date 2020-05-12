@@ -8,9 +8,9 @@
 				Władysława Orkana 39/3<br />
 				51-153 Wrocław
 			</p>
-			<p>
-				<a href="/2D67BBEFE9927C893B343063FE849337A3BB622A.asc">Klucz publiczny PGP</a>
-			</p>
+			<ul>
+				<li><a href="/2D67BBEFE9927C893B343063FE849337A3BB622A.asc">Klucz publiczny PGP</a></li>
+			</ul>
 		</div>
 		<div class="social-logos">
 			<ul>
@@ -37,13 +37,19 @@
 				</a>
 			</li>
 			</ul>
+			<p class="copyrights"><span class="copy">&copy;</span> {{ year }} Olaf Schindler</p>
 		</div>
 	</footer>
 </template>
 
 <script>
 	export default {
-		props: [ 'currentColor' ]
+		props: [ 'currentColor' ],
+		data() {
+			return {
+				year: new Date().getFullYear()
+			}
+		}
 	}
 </script>
 
@@ -58,16 +64,11 @@ footer {
 	// grid-template-columns: repeat(10, 10%);
 	grid-column-gap: 10px;
 	grid-template-columns: repeat(10, 1fr);
-	grid-template-areas: 'a a a a . b b c';
+	grid-template-areas: 'a a a a . b b c c . .';
 
-	p {
-		font-size: 14px;
-	}
+	font-size: 14px;
+	p, ul { font-size: 14px; }
 
-	& > * {
-		// float: left;
-	}
-		
 	.inv {
 		grid-area: a;
 		// grid-column: 1 / span 5;
@@ -83,7 +84,13 @@ footer {
 		grid-area: b;
 		// width: 20%;
 		// grid-column: 6 / span 2;
-		margin-right: 10px;
+		// margin-right: 10px;
+		p {
+			margin-bottom: 1.5em;
+		}
+		ul {
+			list-style: none;
+		}
 	}
 	.social-logos {
 		grid-area: c;
@@ -93,8 +100,9 @@ footer {
 
 			li {
 				margin-right: 3rem;
+				height: 21px;
 			}
-			
+
 			a {
 				display: inline-block;
 				width: 16px;
@@ -110,6 +118,40 @@ footer {
 				}
 			}
 		 }
+		 p.copyrights {
+			 margin-top: 3em;
+			 span.copy {
+				 position: relative;
+				 bottom: -2.5px;
+			 }
+		 }
+	}
+}
+
+@media all and (max-width: 768px) {
+	footer {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-areas:
+			'a a a .'
+			'b b c c';
+		.inv {
+			font-size: 24px;
+		}
+
+		.mid {
+			p {
+				margin-bottom: 0;
+				&:last-of-type {
+					margin-bottom: 1.5em;
+				}
+			}
+		}
+
+		.social-logos {
+			ul li {
+				margin-right: 2rem;
+			}
+		}
 	}
 }
 </style>

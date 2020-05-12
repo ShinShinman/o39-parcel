@@ -71,7 +71,7 @@ header {
 			border: none;
 		}
 	}
-	
+
 	ul.menu {
 		@include inline-list;
 		font-size: 18px;
@@ -85,6 +85,20 @@ header {
 
 	.st0 {
 		fill: inherit;
+	}
+}
+
+@media all and (max-width: 767px) {
+	header {
+		p.hello {
+			font-size: 12px;
+		}
+		h1 {
+			width: 80%;
+		}
+		ul.menu {
+			display: block;
+		}
 	}
 }
 </style>

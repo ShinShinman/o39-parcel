@@ -51,6 +51,11 @@ function setBackground () {
 	})
 }
 
+function randomBackground() {
+	const keys = Object.keys(backgrounds);
+	return backgrounds[keys[ keys.length * Math.random() << 0]];
+}
+
 export default {
 	data() {
 		return {
@@ -67,11 +72,6 @@ export default {
 			this.$emit('colorChange', background.color)
 		}
 	}
-}
-
-function randomBackground() {
-	const keys = Object.keys(backgrounds);
-	return backgrounds[keys[ keys.length * Math.random() << 0]];
 }
 </script>
 
