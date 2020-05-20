@@ -1,5 +1,5 @@
 <template>
-	<div id="app" v-bind:style="{ color: currentColor }">
+	<div id="app" class="test" v-bind:style="{ color: currentColor }">
 		<transition name="simple-fade">
 			<o39-background v-show="!clientList" v-on:colorChange="changeColor"></o39-background>
 		</transition>
@@ -44,6 +44,8 @@ export default {
 }
 </script>
 
-<style lang="scss">
-// @import '../scss/_variables.scss';
+<style lang="scss" scoped>
+#app {
+	padding: 10px;
+}
 </style>

@@ -40,7 +40,7 @@
 				</h1>
 			<ul class="menu">
 				<li><a href="mailto:studio@orkana39.pl">studio@orkana39</a></li>
-				<li><a @click.self.prevent="$emit('clientlistevent')" id="client-list-btn" href="#0">lista klientów</a></li>
+				<li><a @click.self.prevent="$emit('clientlistevent')" id="client-list-btn" href="#0">profil</a></li>
 				<li><a href="https://www.behance.net/orkana39" target="_blank">portfolio</a></li>
 				<li><a href="https://www.instagram.com/orkana39/" target="_blank">instagram</a></li>
 			</ul>

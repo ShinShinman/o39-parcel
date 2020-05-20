@@ -1,44 +1,9 @@
 <template>
-	<div id="background" v-bind:style="{ backgroundImage: currentBackgroundImage }"></div>
+	<div id="background" v-bind:style="styleObject"></div>
 </template>
 
 <script>
-import backgroundImages from '../images/backgrounds/*.jpg'
-
-const backgrounds = {
-	bcgr0: {
-		file: '',
-		color: 'black'
-	},
-	bcgr1: {
-		file: backgroundImages.czteropak,
-		color: 'grey'
-	},
-	bcgr2: {
-		file: backgroundImages.infomnwr,
-		color: 'cornflowerblue'
-	},
-	bcgr3: {
-		file: backgroundImages.mawww2,
-		color: '#84a3ff'
-	},
-	bcgr4: {
-		file: backgroundImages.nomus,
-		color: 'blueviolet'
-	},
-	bcgr5: {
-		file: backgroundImages.dzikie,
-		color: 'rgb(249, 179, 236)' // '#08f95d' // '#00bfbf'
-	},
-	bcgr6: {
-		file: backgroundImages.werk,
-		color: 'white'
-	},
-	bcgr7: {
-		file: '',
-		color: 'black'
-	}
-}
+import { backgrounds } from './backgrounds.js'
 
 function setBackground () {
 	const background = randomBackground();
@@ -59,7 +24,11 @@ function randomBackground() {
 export default {
 	data() {
 		return {
-			currentBackgroundImage: 'pi'
+			currentBackgroundImage: '',
+			styleObject: {
+				backgroundColor: '',
+				backgroundImage: ''
+			}
 		}
 	},
 	created() {
@@ -68,6 +37,8 @@ export default {
 	methods: {
 		getBackground: function() {
 			let background = randomBackground()
+			this.styleObject.backgroundImage = `url(${ background.file })`
+			this.styleObject.backgroundColor = background.backgroundColor ? background.backgroundColor : ''
 			this.currentBackgroundImage = `url(${ background.file })`
 			this.$emit('colorChange', background.color)
 		}
