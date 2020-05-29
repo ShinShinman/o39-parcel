@@ -72,7 +72,7 @@ footer {
 	.inv {
 		grid-area: a;
 		// grid-column: 1 / span 5;
-		letter-spacing: -0.10;
+		letter-spacing: -.01em;
 		// width: 40%;
 		// margin-right: 10%;
 
