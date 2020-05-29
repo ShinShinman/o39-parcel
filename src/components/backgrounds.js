@@ -24,7 +24,8 @@ export const backgrounds = {
 	},
 	bcgr5: {
 		file: backgroundImages.dzikie,
-		color: 'rgb(249, 179, 236)' // '#08f95d' // '#00bfbf'
+		color: 'rgb(252, 48, 214)',
+		backgroundColor: 'darkslateblue'
 	},
 	bcgr6: {
 		file: backgroundImages.werk,

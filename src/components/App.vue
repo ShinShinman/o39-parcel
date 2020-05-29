@@ -1,13 +1,13 @@
 <template>
-	<div id="app" v-bind:style="{ color: currentColor }">
+	<div id="app" v-bind:style="styleObject">
 		<transition name="simple-fade">
 			<o39-background v-show="!clientList" v-on:colorChange="changeColor"></o39-background>
 		</transition>
-		<o39-header v-on:clientlistevent="clientListToggle" v-bind:currentColor="currentColor"></o39-header>
+		<o39-header v-on:clientlistevent="clientListToggle" v-bind:currentColor="styleObject.color"></o39-header>
 		<transition name="slide-fade">
 			<o39-client-list v-if="clientList"></o39-client-list>
 		</transition>
-		<o39-footer v-bind:currentColor="currentColor"></o39-footer>
+		<o39-footer v-bind:currentColor="styleObject.color"></o39-footer>
 	</div>
 </template>
 
@@ -21,7 +21,10 @@ export default {
 	data() {
 		return {
 			clientList: false,
-			currentColor: 'black'
+			styleObject: {
+				color: 'black',
+				backgroundColor: ''
+			}
 		}
 	},
 	methods: {
@@ -30,7 +33,7 @@ export default {
 			this.clientList = !this.clientList
 		},
 		changeColor: function(value) {
-			this.currentColor = value
+			this.styleObject = value;
 		}
 	},
 	components: {
@@ -48,5 +51,6 @@ export default {
 	height: 100vh;
 	position: relative;
 	padding: 10px;
+	z-index: 0;
 }
 </style>

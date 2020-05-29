@@ -1,5 +1,5 @@
 <template>
-	<div id="background" v-bind:style="styleObject"></div>
+	<div id="background" v-bind:style="{ backgroundImage: currentBackgroundImage }"></div>
 </template>
 
 <script>
@@ -24,11 +24,7 @@ function randomBackground() {
 export default {
 	data() {
 		return {
-			currentBackgroundImage: '',
-			styleObject: {
-				backgroundColor: '',
-				backgroundImage: ''
-			}
+			currentBackgroundImage: ''
 		}
 	},
 	created() {
@@ -37,10 +33,9 @@ export default {
 	methods: {
 		getBackground: function() {
 			let background = randomBackground()
-			this.styleObject.backgroundImage = `url(${ background.file })`
-			this.styleObject.backgroundColor = background.backgroundColor ? background.backgroundColor : ''
 			this.currentBackgroundImage = `url(${ background.file })`
-			this.$emit('colorChange', background.color)
+			background.backgroundColor = background.backgroundColor ? background.backgroundColor : '';
+			this.$emit('colorChange', background)
 		}
 	}
 }
