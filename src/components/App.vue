@@ -1,5 +1,5 @@
 <template>
-	<div id="app" class="test" v-bind:style="{ color: currentColor }">
+	<div id="app" v-bind:style="{ color: currentColor }">
 		<transition name="simple-fade">
 			<o39-background v-show="!clientList" v-on:colorChange="changeColor"></o39-background>
 		</transition>
@@ -8,8 +8,6 @@
 			<o39-client-list v-if="clientList"></o39-client-list>
 		</transition>
 		<o39-footer v-bind:currentColor="currentColor"></o39-footer>
-
-		<!-- <client-list v-if="clientList"></client-list> -->
 	</div>
 </template>
 
@@ -46,6 +44,9 @@ export default {
 
 <style lang="scss" scoped>
 #app {
+	box-sizing: border-box;
+	height: 100vh;
+	position: relative;
 	padding: 10px;
 }
 </style>
