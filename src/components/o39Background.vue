@@ -1,5 +1,6 @@
 <template>
-	<div id="background" v-bind:style="{ backgroundImage: currentBackgroundImage }"></div>
+	<!-- <div id="background" v-bind:style="{ backgroundImage: currentBackgroundImage }"></div> -->
+	<div id="background" v-bind:style="styleObject"></div>
 </template>
 
 <script>
@@ -21,10 +22,22 @@ function randomBackground() {
 	return backgrounds[keys[ keys.length * Math.random() << 0]];
 }
 
+function preloadImg(url, _this) {
+	const img = new Image();
+	img.src = url;
+	img.onload = function() {
+		_this.styleObject.backgroundImage = `url(${img.src})`
+		_this.styleObject.filter = ''
+	}
+}
+
 export default {
 	data() {
 		return {
-			currentBackgroundImage: ''
+			styleObject: {
+				backgroundImage: '',
+				filter: 'blur(10px)'
+			}
 		}
 	},
 	created() {
@@ -33,7 +46,8 @@ export default {
 	methods: {
 		getBackground: function() {
 			let background = randomBackground()
-			this.currentBackgroundImage = `url(${ background.file })`
+			preloadImg(background.file, this)
+			this.styleObject.backgroundImage = `url(${ background.file_sml })`
 			background.backgroundColor = background.backgroundColor ? background.backgroundColor : '';
 			this.$emit('colorChange', background)
 		}
@@ -50,6 +64,7 @@ export default {
 	height: 100vh;
 	margin: -10px;
 	z-index: -10;
+	transition: 2s filter ease;
 }
 
 //Vue transition
