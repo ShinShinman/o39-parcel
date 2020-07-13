@@ -60,22 +60,21 @@ export default {
 	position: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 100vw;
-	height: 100vh;
-	margin: -10px;
+	width: 105vw;
+	height: 105vh;
+	margin: -30px;
 	z-index: -10;
-	transition: 2s filter ease;
+	transition: filter 2s ease;
 }
 
 //Vue transition
 .simple-fade-enter-active {
-  transition: all 1s ease;
+  transition: all .6s ease, filter 2s ease;
 }
 .simple-fade-leave-active {
-  transition: all .2s ease;
+  // transition: opacity .6s ease;
 }
 .simple-fade-enter, .simple-fade-leave-to {
-  // transform: translateY(10px);
   opacity: 0;
 }
 </style>

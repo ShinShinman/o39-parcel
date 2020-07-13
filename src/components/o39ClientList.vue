@@ -4,7 +4,7 @@
 
 		<p>Dzięki takiemu doświadczeniu rozumiemy potrzeby klientów i&nbsp;potrafimy realizować zarówno skomplikowane projekty jak i&nbsp;te o&nbsp;mniejszej skali.</p>
 
-		<p>Oto wybrani klienci, z&nbsp;którymi mieliśmy przyjemność pracować: Amrest, Energa, ING Bank Śląski, Muzeum Architektury we&nbsp;Wrocławiu, Muzeum Narodowe w&nbsp;Gdańsku, Muzeum Narodowe w&nbsp;Warszawie, Muzeum Narodowe we&nbsp;Wrocławiu, Muzeum Współczesne Wrocław, Zakład Narodowy im.&nbsp;Ossolińskich, Zieta Prozessdesign.</p>		
+		<p>Oto wybrani klienci, z&nbsp;którymi mieliśmy przyjemność pracować: Amrest, Energa, ING Bank Śląski, Muzeum Architektury we&nbsp;Wrocławiu, Muzeum Narodowe w&nbsp;Gdańsku, Muzeum Narodowe w&nbsp;Warszawie, Muzeum Narodowe we&nbsp;Wrocławiu, Muzeum Współczesne Wrocław, Zakład Narodowy im.&nbsp;Ossolińskich, Zieta Prozessdesign.</p>
 	</section>
 </template>
 
