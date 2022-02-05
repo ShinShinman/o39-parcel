@@ -1,11 +1,40 @@
 <template>
-	<p class="hello">{{ greeting }}. We Wrocławiu jest teraz godzina {{ localeTime }}, a&nbsp;temperatura to {{temp}}&#176;C.</p>
+	<p class="hello">{{ greeting }}. {{ translation.timeReport( localeTime ) }}, {{ translation.weatherReport( temp ) }}.</p>
 </template>
 
 <script>
 	import axios from 'axios'
 	import debounce from 'lodash.debounce'
 	import { config } from './config.js'
+
+	const translations = {
+		en: {
+			greetings: {
+				morning: 'Good morning',
+				afternoon: 'Good afternoon',
+				evening: 'Good evening'
+			},
+			timeReport: (hour) => {
+				return `It's ${hour} o'clock in Wrocław now`
+			},
+			weatherReport: (temperature) => {
+				return `and the temperature is ${temperature}°C`
+			}
+		},
+		pl: {
+			greetings: {
+				morning: 'Dzień dobry',
+				afternoon: 'Dzień dobry',
+				evening: 'Dobry wieczór'
+			},
+			timeReport: (hour) => {
+				return `We Wrocławiu jest teraz ${hour} godzina`
+			},
+			weatherReport: (temperature) => {
+				return `a temperatura to ${temperature}°C`
+			}
+		}
+	}
 
 	export default {
 		data() {
@@ -15,16 +44,21 @@
 				timerID: ''
 			}
 		},
+		props: ['userLanguage'],
 		computed: {
 			greeting() {
 				const time = parseInt(this.localeTime)
-				return time > 7 && time < 19 ? 'Dzień dobry' : 'Dobry wieczór' 
+				return time > 7 && time < 19 ? this.translation.greetings.afternoon : this.translation.greetings.evening
+			},
+			translation: function() {
+				return translations[this.userLanguage]
 			}
 		},
 		created() {
 			this.localeTime = this.getTime()
 			this.timerID = setInterval(this.getTime, 5000)
 			this.getTemperature()
+			// this.yyy = userLanguage
 		},
 		beforeDestroy() {
 			clearInterval(this.timerID)

@@ -1,7 +1,7 @@
 <template>
 	<footer>
 		<div class="inv">
-			<p>Zawsze chętnie rozmawiamy o&nbsp;nowych projektach. Zatelefonuj <a href="tel:+48 606 892 007">+48&nbsp;606&nbsp;892&nbsp;007</a> albo napisz do nas <a href="mailto:studio@orkana39.pl">studio@orkana39.pl</a>.</p>
+			<p v-html="translation.slogan"></p>
 		</div>
 		<div class="mid">
 			<p>
@@ -9,7 +9,7 @@
 				51-153 Wrocław
 			</p>
 			<ul>
-				<li><a href="/2D67BBEFE9927C893B343063FE849337A3BB622A.asc">Klucz publiczny PGP</a></li>
+				<li><a href="/2D67BBEFE9927C893B343063FE849337A3BB622A.asc">{{ translation.PGPpublicKey }}</a></li>
 			</ul>
 		</div>
 		<div class="social-logos">
@@ -43,11 +43,28 @@
 </template>
 
 <script>
+
+	const translations = {
+		en: {
+			PGPpublicKey: 'PGP Public Key',
+			slogan: 'Looking for someone to work with on a new project? Drop me a line: <a href="mailto:studio@orkana39.pl">studio@orkana39.pl</a> or lets talk: <a href="tel:+48 606 892 007">+48&nbsp;606&nbsp;892&nbsp;007</a>.'
+		},
+		pl: {
+			PGPpublicKey: 'Klucz publiczny PGP',
+			slogan: 'Szukasz kogoś do współpracy przy następnym projekcie? Zatelefonuj: <a href="tel:+48 606 892 007">+48&nbsp;606&nbsp;892&nbsp;007</a> albo napisz: <a href="mailto:studio@orkana39.pl">studio@orkana39.pl</a>.'
+		}
+	}
+
 	export default {
-		props: [ 'currentColor' ],
+		props: [ 'currentColor', 'userLanguage' ],
 		data() {
 			return {
 				year: new Date().getFullYear()
+			}
+		},
+		computed: {
+			translation: function() {
+				return translations[this.userLanguage]
 			}
 		}
 	}

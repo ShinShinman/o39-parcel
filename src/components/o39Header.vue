@@ -1,6 +1,6 @@
 <template>
 	<header>
-				<Greeting></Greeting>
+				<Greeting :userLanguage="userLanguage"></Greeting>
 				<h1 title="Studio Orkana39">
 					<a href="#home" id="home-btn">
 						<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Layer_1" viewBox="0 0 374.17 39.69">
@@ -40,18 +40,39 @@
 				</h1>
 			<ul class="menu">
 				<li><a href="mailto:studio@orkana39.pl">studio@orkana39</a></li>
-				<li><a @click.self.prevent="$emit('clientlistevent')" id="client-list-btn" href="#0">profil</a></li>
+				<li><a @click.self.prevent="$emit('clientlistevent')" id="client-list-btn" href="#0">{{ translation.profile }}</a></li>
 				<li><a href="https://www.behance.net/orkana39" target="_blank">portfolio</a></li>
 				<li><a href="https://www.instagram.com/orkana39/" target="_blank">instagram</a></li>
+				<li v-if="userLanguage == 'en'"><a @click.self.prevent="$emit('languagechangeevent', 'pl')" href="#0">pl</a></li>
+				<li v-if="userLanguage == 'pl'"><a @click.self.prevent="$emit('languagechangeevent', 'en')" href="#0">en</a></li>
 			</ul>
 		</header>
 </template>
 
 <script>
-	import Greeting from './o38Greeting.vue';
+	import Greeting from './o38Greeting.vue'
+	// import { userLanguage } from '../locales/userLanguage.js'
+
+	const translations= {
+		en: {
+			profile: 'profile'
+		},
+		pl: {
+			profile: 'profil'
+		}
+	}
 
 	export default {
-		props: [ 'currentColor' ],
+		data() {
+			return {
+			}
+		},
+		computed: {
+			translation: function() {
+				return translations[this.userLanguage]
+			}
+		},
+		props: ['currentColor', 'userLanguage'],
 		components: { Greeting }
 	}
 </script>

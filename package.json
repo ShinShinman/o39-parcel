@@ -1,7 +1,7 @@
 {
   "name": "o39-vue",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Tłumaczenie",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
+    "get-user-locale": "^1.4.0",
     "lodash.debounce": "^4.0.8",
     "vue-hot-reload-api": "^2.3.4"
   }
